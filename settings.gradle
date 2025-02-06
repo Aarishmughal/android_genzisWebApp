@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "The Legacy"
+rootProject.name = "GENZIS_AndroidApp"
 include ':app'

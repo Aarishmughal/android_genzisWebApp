@@ -22,9 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         ConstraintLayout mainLayout = findViewById(R.id.main);
 
-        // Apply a listener to adjust padding based on WindowInsets
         mainLayout.setOnApplyWindowInsetsListener((view, insets) -> {
-            // Adjust the padding of the top of the mainLayout
             int statusBarHeight = 0;
             if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.Q) {
                 statusBarHeight = insets.getSystemGestureInsets().top;
@@ -51,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        webView.loadUrl("https://faisal.giftngears.com/");
+        webView.loadUrl("https://genzis.store/");
     }
 
     @Override
